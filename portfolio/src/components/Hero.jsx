@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, FileText, Code, Terminal } from 'lucide-react';
+import { Github, Linkedin, Mail, FileText, Code, Terminal, braces } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -26,7 +26,7 @@ const Hero = () => {
               Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Aalok Kumar Rajwade</span>
             </h1>
             <p className="mt-4 text-xl text-gray-400 max-w-2xl mx-auto mb-8">
-              Competitive Programmer | Full Stack Developer | IIT (BHU)
+              Competitive Programmer | Full Stack Developer | IIT (BHU) Varanasi
             </p>
           </motion.div>
 
@@ -44,7 +44,7 @@ const Hero = () => {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1Hqq7Uu7Ec7O1k8FhMi9lSDhyGUhBrS6s/view?usp=sharing" // Placeholder for resume link
+              href="https://drive.google.com/file/d/1Hqq7Uu7Ec7O1k8FhMi9lSDhyGUhBrS6s/view?usp=sharing" target="_blank" // Placeholder for resume link 
               className="px-8 py-3 rounded-full bg-slate-800 hover:bg-slate-700 text-white font-semibold transition-all border border-slate-700 flex items-center gap-2"
             >
               <FileText size={20} />
@@ -67,9 +67,12 @@ const Hero = () => {
             <a href="mailto:aalokprayasjee01@gmail.com" className="hover:text-white transition-colors">
               <Mail size={24} />
             </a>
-             {/* Add Codeforces/Leetcode icons if available or use generic Code icon */}
-             <a href="#" className="hover:text-white transition-colors" title="Codeforces">
+             <a href="https://codeforces.com/profile/aalokkr_raj"  target="_blank" className="hover:text-white transition-colors" title="Codeforces">
                 <Code size={24} />
+             </a>
+
+            <a href="https://leetcode.com/u/aalokkr_raj/"  target="_blank" className="hover:text-white transition-colors" title="Leetcode">
+                <braces size={24} />
              </a>
           </motion.div>
         </div>
