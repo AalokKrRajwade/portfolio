@@ -8,24 +8,24 @@ const Projects = () => {
       title: "Memories MERN App",
       description: "A social media web application that allows users to create, like, and comment on posts. Implemented secure authentication & authorization with JWT and bcrypt.",
       tech: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/AalokKrRajwade/memories_mern_app",
+      live: "https://memories-app-five-liart.vercel.app/",
       image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1000&auto=format&fit=crop" // Placeholder
     },
     {
       title: "Live Poll Battle",
       description: "Scalable real-time poll application for instant vote synchronization. Features secure poll room creation and interactive voting system with live updates.",
       tech: ["ReactJS", "NodeJS", "WebSockets"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/AalokKrRajwade/pollitics",
+      live: "https://pollitics-seven.vercel.app/",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop" // Placeholder
     },
     {
       title: "Sorting Visualizer",
       description: "Web application to showcase the inner workings of popular sorting algorithms like Bubble Sort, Merge Sort, and Quick Sort with color animations.",
       tech: ["HTML", "CSS", "JavaScript", "Algorithms"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/AalokKrRajwade/Sorting-Visualizer",
+      live: "https://sorting-visualizer-sigma-seven.vercel.app/",
       image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000&auto=format&fit=crop" // Placeholder
     }
   ];
