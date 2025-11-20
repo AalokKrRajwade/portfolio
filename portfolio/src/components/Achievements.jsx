@@ -23,21 +23,9 @@ const Achievements = () => {
       color: "text-orange-400"
     },
     {
-      title: "Global Rank 723",
-      description: "LeetCode Weekly Contest 453",
-      icon: Award,
-      color: "text-purple-400"
-    },
-    {
-      title: "Global Rank 162 & 172",
-      description: "CodeChef Starter 138 & 192",
-      icon: Award,
-      color: "text-purple-400"
-    },
-    {
-      title: "Global Rank 807 & 1415",
-      description: "Codeforces Round 1043 & 1029",
-      icon: Award,
+      title: "HackerRank",
+      description: "C++ Gold level",
+      icon: Star,
       color: "text-purple-400"
     },
     {
