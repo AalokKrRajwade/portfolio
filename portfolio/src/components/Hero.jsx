@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, FileText, Code, Terminal, braces } from 'lucide-react';
+import { Github, Linkedin, Mail, FileText, Code, Terminal, Braces } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -72,7 +72,7 @@ const Hero = () => {
              </a>
 
             <a href="https://leetcode.com/u/aalokkr_raj/"  target="_blank" className="hover:text-white transition-colors" title="Leetcode">
-                <braces size={24} />
+                <Braces size={24} />
              </a>
           </motion.div>
         </div>
