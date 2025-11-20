@@ -26,7 +26,7 @@ const Hero = () => {
               Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Aalok Kumar Rajwade</span>
             </h1>
             <p className="mt-4 text-xl text-gray-400 max-w-2xl mx-auto mb-8">
-              Ceramic Engineering Student at IIT (BHU) | Competitive Programmer | Full Stack Developer
+              Competitive Programmer | Full Stack Developer | IIT (BHU)
             </p>
           </motion.div>
 
