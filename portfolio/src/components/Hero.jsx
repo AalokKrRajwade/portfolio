@@ -44,7 +44,7 @@ const Hero = () => {
               Contact Me
             </a>
             <a
-              href="/resume.pdf" // Placeholder for resume link
+              href="https://drive.google.com/file/d/1Hqq7Uu7Ec7O1k8FhMi9lSDhyGUhBrS6s/view?usp=sharing" // Placeholder for resume link
               className="px-8 py-3 rounded-full bg-slate-800 hover:bg-slate-700 text-white font-semibold transition-all border border-slate-700 flex items-center gap-2"
             >
               <FileText size={20} />
@@ -58,10 +58,10 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mt-12 flex justify-center gap-6 text-gray-400"
           >
-            <a href="https://github.com/aalok-rajwade" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+            <a href="https://github.com/AalokKrRajwade" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com/in/aalok-rajwade" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/aalok-kumar-rajwade-3aa971231/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
               <Linkedin size={24} />
             </a>
             <a href="mailto:aalokprayasjee01@gmail.com" className="hover:text-white transition-colors">
