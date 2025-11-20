@@ -5,21 +5,21 @@ import { GraduationCap, Calendar, Award } from 'lucide-react';
 const About = () => {
   const education = [
     {
-      degree: "IDD Ceramic Engineering",
+      degree: "Ceramic Engineering (IDD)",
       institution: "IIT (BHU), Varanasi",
       score: "8.50 CGPA",
       year: "2026",
       icon: GraduationCap
     },
     {
-      degree: "Class XII (CGBSE)",
+      degree: "Class XII",
       institution: "Prayas Residential School, Raipur",
       score: "94.40%",
       year: "2021",
       icon: Award
     },
     {
-      degree: "Class X (CGBSE)",
+      degree: "Class X",
       institution: "Prayas Residential School, Raipur",
       score: "96.40%",
       year: "2019",
