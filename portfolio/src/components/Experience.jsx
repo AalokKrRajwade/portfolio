@@ -18,18 +18,20 @@ const Experience = () => {
     },
     {
       title: "Publicity Executive",
-      company: "Jagriti’23",
+      company: "Jagriti (Annual Socio-Awareness Weekend organized by Social Service Council IIT BHU)",
       period: "2023",
       description: [
-        "Executed publicity campaigns engaging diverse students to maximize event reach."
+        "Played a key role in planning and executing publicity campaigns for Jagriti.",
+        "Targeting and engaging diverse student demographics to maximize event reach and impact."
       ]
     },
     {
       title: "Executive",
-      company: "Kashiyatra’23",
+      company: "Kashiyatra (Annual Socio-cultural festival of IIT BHU)",
       period: "2023",
       description: [
-        "Coordinated large-scale fest events, managing operations and issues for seamless flow."
+        "Coordinated and managed large-scale fest events.",
+        "Overseeing operations, resolving onspot issues, and ensuring seamless execution for an improved participant experience"
       ]
     }
   ];
